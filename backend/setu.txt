@@ -1,0 +1,21 @@
+cd backend
+
+# Create virtual environment
+python -m venv venv
+
+# Activate it
+# Windows:
+venv\Scripts\activate
+# Mac/Linux:
+source venv/bin/activate
+
+# Install dependencies
+pip install fastapi "uvicorn[standard]" aiofiles python-multipart pydantic
+pip install scikit-learn numpy
+pip install yara-python      # optional
+pip install pytsk3           # optional
+
+
+cd frontend
+npm install
+npm run dev
