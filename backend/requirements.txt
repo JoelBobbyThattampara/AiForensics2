@@ -1,0 +1,27 @@
+# FCTT Backend — Python Dependencies
+# Install: pip install -r requirements.txt
+
+# Core API
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+aiofiles==23.2.1
+python-multipart==0.0.9
+pydantic==2.6.0
+
+# Forensic Engines
+pytsk3==20231101          # Disk forensics (NTFS/FAT/EXT parsing)
+yara-python==4.5.0        # YARA rule matching
+
+# Memory Analysis
+volatility3==2.7.0        # Volatility3 framework
+
+# AI / ML
+scikit-learn==1.4.0
+numpy==1.26.4
+pandas==2.2.0
+
+# Reporting
+fpdf2==2.7.9              # PDF generation
+
+# Utilities
+python-dotenv==1.0.1
